@@ -1,0 +1,66 @@
+body {  /* you usually would not add a body tag fo designing */
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Top */
+header {
+    background-color: #8FC0A9;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+h1 {
+    color: seagreen;
+}
+
+#main-nav a {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+}
+
+#main-nav a:hover {
+    color: green;
+}
+
+/* Middle */
+.products {
+    color: peachpuff;
+    background-color: #F06449;
+}
+
+.products__container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* fr = fraction */
+    grid-gap: 20px;
+}
+
+.card img {
+    width: 300px;
+}
+
+/* Bottom */
+
+.contact {
+    background-color: #C8D589;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.contact__text {
+    width: 50%;
+}
+
+footer {
+    background-color: seagreen;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr; /* more room for last column */
+}
+
+footer img {
+    width: 150px;
+}
